@@ -1,25 +1,41 @@
-baseURL = 'https://zhiyi-r.github.io/'
-languageCode = 'zh'
-defaultContentLanguage = "zh"
-title = '南风知我意~'
-theme='hugo-coder'
-enableEmoji = true
+baseurl = "https://zhiyi-r.github.io/"
+title = "南风知我意~"
+theme = "hugo-coder"
+languagecode = "zh"
+defaultcontentlanguage = "zh"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+# [services.disqus]
+# shortname = "ZhiYi"
+
+[markup.highlight]
+style = "github-dark"
 
 [params]
-author = '知意'
-description = '知意的个人博客'
-keywords = 'blog,developer,personal,electronic,programming'
-info = ['Empty Stack DevOps']
-colorScheme = 'dark'
-hideColorSchemeToggle = false
+author = "ZhiYi"
+info = "Empty Stack DevOps"
+description = "知意的小站"
+keywords = "blog,developer,personal"
+# avatarurl = "images/avatar.jpg"
+# gravatar = "john.doe@example.com"
+faviconSVG = "/img/favicon.svg"
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
+
 since = 2024
 
+enableTwemoji = true
 
-[params.utteranc]
-enable = true
-repo = 'ZhiYi-R/ZhiYi.github.io'
-issueTerm = 'title'
-theme = 'github-dark'
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
 
 [taxonomies]
 category = "categories"
@@ -27,22 +43,19 @@ series = "series"
 tag = "tags"
 author = "authors"
 
+# Social links
 [[params.social]]
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/ZhiYi-R/"
 
-[languages.zh]
-languageName = ":zh:"
-
-[[languages.zh.menu.main]]
+# Menu links
+[[menu.main]]
 name = "文章"
 weight = 1
-url = "post/"
-
-[[languages.zh.menu.main]]
+url = "posts/"
+[[menu.main]]
 name = "关于"
 weight = 2
-url = "authors/"
-
+url = "Authors/"
