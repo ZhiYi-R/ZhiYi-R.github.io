@@ -58,4 +58,4 @@ url = "posts/"
 [[menu.main]]
 name = "关于"
 weight = 2
-url = "Authors/"
+url = "authors/"
