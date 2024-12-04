@@ -1,4 +1,4 @@
-baseURL = "https://zhiyi-r.github.io/ZhiYi.github.io/"
+baseURL = "https://zhiyi-r.github.io/"
 title = "johndoe"
 theme = "hugo-coder"
 languageCode = "en"

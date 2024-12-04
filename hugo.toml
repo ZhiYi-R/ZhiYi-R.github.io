@@ -39,10 +39,10 @@ languageName = ":zh:"
 [[languages.zh.menu.main]]
 name = "文章"
 weight = 1
-url = "post/index.html"
+url = "post/"
 
 [[languages.zh.menu.main]]
 name = "关于"
 weight = 2
-url = "about/"
+url = "authors/"
 
